@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a                  {text-decoration: none;}
+a:link            {color: #222;}
+a:visited        {color: #222;}
+a:hover         {color: #222;}
+a:active         {color: #222;}
+img              {vertical-align: middle;}
+ul                 {list-style: none;}
+/* Reset */
+
+/* div#wrap */
+div#wrap {
+    width: 1100px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 40px auto;
+}
+button {
+    font-size: 24px;
+}
+/* div#wrap */
+
+/* 슬라이드 쇼 RTL */
+div#slideArea {
+    width: 1000px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+div#shuttleFrame {
+    width: 3000px;
+}
+
+#slideArea a {
+    float: left;
+    position: relative;
+}
+
+#slideArea span {
+    font-size: 40px;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* 슬라이드 쇼 RTL */
